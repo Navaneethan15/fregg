@@ -530,75 +530,154 @@ text-align: center;
     padding-top: 20px;
 
 } 
+@media only screen and (max-width: 768px) {
 
-@media  screen and (max-width: 768px) {
-    body {
-      /* background-color: lightblue; */
-     .list1{margin-left: 5%; margin-top: 3px; height: min-content;} 
-     .list2{margin-left: 4%; padding-top: 0%; margin-top: 1px; text-align: center; width: 55%; height: 110px;}
-     .list3{margin-left:5% ; margin-top: 5px; text-align: center;}
-     .list4{text-align: center;
-        height: 20px;
-         width: 60%; }
-         .menu1{
-            height: 450px;
-         }
-     .banner{width: 99%;}
-     .contact{
-        margin-left: 5%;
-        margin-top: 30px;
-     }
-     }
-     .container1{height: 450px;}
-     .c1{ margin-top: 2px;}
-     .navi{
-        background-image: url(/images/menu.png);
-        background-size: 55px;
-        background-repeat: no-repeat;
-        /* display: none; */
-     }
-     .container2{
-        /* max-width: 730px; */
-     }
-    .menu2{
-        /* max-width: 50%; */
-
-    }
-    .ab{
-        height: 400px; width: 42%;
-        border-style: dashed;
-        margin-left: 5%;
-    }
-    .w2{
+    .list1{margin-left: 5%;
         /* border-style: dashed; */
-        height: 300px; width: 95%;
+        padding-left: 20px;
+         margin-top: 3px;
+          height: min-content;} 
+    .list2{margin-left: 4%; padding-top: 0%; margin-top: 1px; text-align: center; width: 55%; height: 110px;}
+    .list3{margin-left:5% ; margin-top: 5px; text-align: center;}
+    .list4{text-align: center;
+       height: 20px;
+        width: 60%; }
+        .menu1{
+           height: 450px;
+        }
+    .banner{width: 99%;}
+    .contact{
+       margin-left: 5%;
+       margin-top: 30px;
     }
-    .w1{
-        width: 60%;
+    
+    .container1{height: 450px;}
+    .c1{ margin-top: 2px;}
+    .navi ul li a{ color: #e93f1a; display: none;}
+    .navi ul li img{
+        display: none;
     }
-     .post1{
-        /* max-width: 30%; height: 200px; */
-        /* background-size: 400px; */
-        height: 200px; width: 35%;
-        margin-top: 150px;
+    .navi{
+       background-image: url(/images/menu.png);
+       background-size: 55px;
+       background-position: 250px;
+       background-repeat: no-repeat;
+       /* display: none; */
+    }
+   .ab{
+       height: 400px; width: 42%;
+       /* border-style: dashed; */
+       margin-left: 5%;
+   }
+   .w2{
+       /* border-style: dashed; */
+       height: 300px; width: 95%;
+   }
+   .w1{
+       width: 60%;
+   }
+    .post1{
+       /* max-width: 30%; height: 200px; */
+       /* background-size: 400px; */
+       height: 200px; width: 35%;
+       margin-top: 150px;
+       /* border-style: dashed; */
+       background-size: 250px 150px;
+       background-repeat: no-repeat;
+       margin-right: 110px;
+    }
+
+    .container3{
+       width: auto;
+
+    }
+    .area1{
+        margin-left: 200px;
+    }
+    .box2{
         border-style: dashed;
-        background-size: 250px 150px;
-        background-repeat: no-repeat;
-        margin-right: 110px;
-     }
+        width: 70%;
+    }
+    .box3{
+        /* border-style: dashed; */
+        height: 190px;
+    }
 
-     .container3{
-        width: auto;
+    }
+    .name2 {
+        /* border-style: dashed; */
+        margin-top: 60px;
+    }
+    .area3{
+        /* border-style: dashed; */
+        margin-right: 50px;
+    }
+    .name3{
+        /* border-style: dashed; */
+        height: 350px;
+        margin-top: 20px;
+    }
+    .box9{
+        /* border-style: dashed; */
+        height: auto;
+    }
+    .box11{
+        height: auto;
+    }
+    .name2,.name4{
+        border-style: dashed;
+        height:400px;
+    }
+    .box5,.box13{
+        border-style: dashed;
+        margin-top: 10px;
+        
+    }
+    .box6,.box14{
+         margin-top: 2px;
+         border-style: dashed;
+         width: 80%;
+    }
+    .box7,.box15{
+        border-style: dashed;
+        width: 99%;
+        height:200px ;
+    }
+    .name4{
+        border-style: dashed;
+        height: 400px;
+    }
+    .box13{
+        border-style: dashed;
+        margin-top: 10px;
+    }
+    .t1{
+        width: 90%;
+        padding-top: 25px;
+        margin-left: 250px;
+    }
+    .t2{
+        width: 90%;
+        margin-left: 20px;
+        border-style: dashed;
+        text-align: center;
+    }
+    .t3{
+        margin-right: 300px;
+        margin-top: 30px;
+        border-style: dashed;
+    }
+    .se2{
+        border-style: dashed;
+        margin-top: 40px;
+        padding-top: ;
+    }
+    
+    
 
-     }
-     .menu1{
-
-     }
-     .area1{}
-     .area2{}
-     .name1{}
-     .name2{}
+}
 
      
-    }
-}  
+     
+    
+
