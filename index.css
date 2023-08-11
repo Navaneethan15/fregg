@@ -14,9 +14,6 @@
     margin-top: 0%;
 }
 
-
-
-
 .menu1{
     width: 95%;
     height: 600px;
@@ -175,14 +172,15 @@ li{
 }
 .post1{
     width: 49%;
-    height: 400px;
+    height: 350px;
     /* border-style: dashed; */
     float: right;
     background-image: url(./images/about-img.png);
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: contain;
     /* border-style: dashed; */
     margin-top: 70px;
+    margin-right: 10px;
 }
 /* (2)nd page END - 3 page st  */
 .container3{
